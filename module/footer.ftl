@@ -23,7 +23,7 @@
     </div>
     <div class="wrap min">
         <section class="sub-footer">
-            <div align="middle">
+            <div align="left">
                 <img class="mdui-img-circle" height="24" width="24" src="${blog_logo!}">
                 <a>${blog_title!}</a>
                 <div>© <span id="timeyear">${.now?string('yyyy')}</span> ${user.nickname!} <a href="https://beian.miit.gov.cn/" target="_blank">${settings.icp!}</a></div>
